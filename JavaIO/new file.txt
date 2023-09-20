@@ -1,0 +1,7 @@
+public class ReadingAndWritingTextFiles {
+    public static void main(String[] args) throws IOException {
+        Path path = Path.of("new file.txt");
+        String text = Files.readString(path);
+        System.out.println(text);
+    }
+}
